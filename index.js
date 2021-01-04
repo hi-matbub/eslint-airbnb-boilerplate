@@ -1,3 +1,3 @@
-var hello = name => { return "Hello, " + name + "!" }
+const hello = (name) => `Hello, ${name}!`;
 
-console.log(hello("World")); 
+console.log(hello('World'));
